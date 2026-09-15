@@ -58,9 +58,9 @@ app.post("/player/takeDamage", (req: Request, res: Response) => {
 // O método listen() faz o servidor começar a "escutar" requisições HTTP
 
 app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
-  console.log("Rotas disponíveis:");
-  console.log(`Get http://localhost:${PORT}/player/attack - Obter informações do jogador`);
-  console.log (`POST http://localhost:${PORT}/player/attack - Jogador realiza um ataque`);
-  console.log(`POST http://localhost:${PORT}/player/take-damage - jogador recebe um dano`);
+console.log(`Servidor rodando em http://localhost:${PORT}`);
+console.log("Rotas disponíveis:");
+console.log(`Get http://localhost:${PORT}/player/attack - Obter informações do jogador`);
+console.log (`POST http://localhost:${PORT}/player/attack - Jogador realiza um ataque`);
+console.log(`POST http://localhost:${PORT}/player/take-damage - jogador recebe um dano`);
 });
